@@ -197,7 +197,7 @@ const configFile = `/Users/july/.cursor/mcp.json`;
 const rep = POST("用meta2d生成echarts图元，要求数据为前端开发的薪资水平，用饼图表示")
 
 rep.then(res =>{
-    return res.json()
+    return res.text()
 }).then(d=>{
     console.log(d,)
 })

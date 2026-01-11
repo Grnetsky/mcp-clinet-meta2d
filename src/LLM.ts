@@ -61,7 +61,7 @@ export async function chatWithLLM({
         .replace("{AVAILABLE_TOOLS}", tools || "")
         .replace("{PREVIOUS_TOOL_RESULTS}", toolResults || "");
     const openrouter = createOpenRouter({
-        apiKey:  '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',
+        apiKey:  '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',
     });
 
     const result = await streamText({
