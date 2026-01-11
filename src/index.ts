@@ -127,7 +127,7 @@ async function getMcpTools(
     return allTools.flat();
 }
 
-export async function POST(query: string) {
+export async function main(query: string) {
     // 加载 MCP 配置文件，获取 MCP 服务器列表和可用工具
 const configFile = `/Users/july/.cursor/mcp.json`;
     const config =  fs.readFileSync(configFile, "utf-8");

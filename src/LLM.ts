@@ -1,7 +1,7 @@
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import { streamText } from "ai";
 
-const mcpPrompt = `你是 ChatMCP，由 ThinkAny AI 开发的 AI 对话助手。
+const mcpPrompt = `你是 LE5LEMCP，由 乐吾乐 公司 开发的 AI 自动生成图元的助手。
 # 通用指令
 请结合可用的上下文信息（CONTEXT_MESSAGES）和上一次工具调用结果（PREVIOUS_TOOL_RESULTS），针对用户的查询（USER_QUERY），写出准确、详细且全面的回复。
 - 回答应精确、高质量、专业且公正。
